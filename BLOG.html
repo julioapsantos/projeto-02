@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <header>
+      <div id="navbar-container">
+        <h2>Blog</h2>
+        <div id="icon-menu"><i id="menu" class="fa-solid fa-bars"></i></div>
+        <div id="navbar-inner">
+          <nav id="navbar">
+            <ul id="navbar-list">
+              <li><i id="close-menu" class="fa-solid fa-xmark"></i></li>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Categorias</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+          <div id="darkmode-container">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="container">
+      <main id="posts-container">
+        <article class="post">
+          <img src="foto1.jpeg" alt="imagem de um passeio de barco" />
+          <h3 class="title">conheça cidreira</h3>
+          <p class="description">
+            Cidreira, no litoral gaúcho, é uma escolha encantadora para quem busca relaxamento e beleza natural. Com quilômetros de praias de areia dourada e mar refrescante, é o destino perfeito para curtir o sol, fazer caminhadas à beira-mar e aproveitar a brisa tranquila. Além disso, a cidade oferece um ambiente acolhedor, com opções de lazer e gastronomia que combinam a simplicidade e o charme do litoral sul. Se você busca um refúgio acessível e relaxante, Cidreira é uma ótima opção para se desconectar e desfrutar momentos inesquecíveis.
+          </p>
+          <a class="view-more" href="#">Ler mais</a>
+        </article>
+        <article class="post">
+          <img
+            src="foto2.jpeg"
+            alt="imagem com uma pessoa olhando as aguas da cachoeira cairem"
+          />
+          <h3 class="title">farol de cidreira</h3>
+          <p class="description">
+            Construído em 1933, o farol de Cidreira tem 30 metros de altura, localizado entre os balneários de Salinas e Nazaré. Funcionou por 49 anos, com querosene, somente em 1982 passou a funcionar com energia elétrica. Sua iluminação tem alcance de 30 Km.
+
+            Em frente ao farol há uma grande área de gramado. Fica na Av. Fausto Borba Prates, 5216, praia de Nazaré.          </p>
+          <a class="view-more" href="#">Ler mais</a>
+        </article>
+        <article class="post">
+          <img
+            src="foto3.jpeg"
+            alt="imagem de uma pessoa tirando foto de outra olhando para balões no ar"
+          />
+          <h3 class="title">plataforma de pesca em cidreira</h3>
+          <p class="description">
+            A plataforma de pesca de Cidreira tem 400 metros de extensão que avança mar adentro, além de 40 m que formam um “T”, na ponta. É utilizadas por pescadores e para observação do público em geral. A área próxima da plataforma é uma das preferidas dos surfistas.
+Neste ponto os visitantes costumam estacionar o carro à beira mar.</p>
+          <a class="view-more" href="#">Ler mais</a>
+        </article>
+      </main>
+      <aside id="side-bar">
+        <section id="search-bar">
+          <h4>Busca</h4>
+          <form>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Pesquise no blog"
+              required
+            />
+            <input type="submit" value="Pesquisar" />
+          </form>
+        </section>
+        <section id="categories">
+          <h4>Categorias</h4>
+          <nav>
+            <ul>
+              <li><a href="#">Aventuras</a></li>
+              <li><a href="#">Viagens longas</a></li>
+              <li><a href="#">Paisagens</a></li>
+              <li><a href="#">Cachoeiras</a></li>
+              <li><a href="#">Florestas</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section id="tags">
+          <h4>Tags</h4>
+          <div id="tags-container">
+            <a href="#">Lifestyle</a>
+            <a href="#">Viagem</a>
+            <a href="#">Barco</a>
+            <a href="#">Trilha</a>
+            <a href="#">Tirolesa</a>
+            <a href="#">Rafting</a>
+            <a href="#">Parapente</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <h2>Blog</h2>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
